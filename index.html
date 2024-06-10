@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #shopify-section-header, .shopify-section-header, shopify-section-header {display:none !important;} {display:none !important;}
+        #announcement-bar, .announcement-bar, announcement-bar {display:none !important;}
+        #header, .header, header {display:none !important;}
+        #footer, .footer, footer {display:none !important;}
+    </style>
 </head>
 <body>
+    <div>
+        <p align="center">
+            <a href="/" itemprop="url">
+              <img src="{{ "logo.png" | asset_url }}"
+                   alt="{{ shop.name }}"
+                   itemprop="logo" style="width:75%; max-width:150px; margin-top:10px;">
+            </a>
+          </p>          
+    </div>
     
 </body>
 </html>
